@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    height: 800px;
+    background:silver;
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+
+}
+.blockA{
+    width: 92.5%;
+    height: 30%;
+    background:chocolate;
+    margin:10px;
+
+}
+.blockB{
+    width: 60%;
+    height: 60%;
+    background:cadetblue;
+    margin: 10px;
+}
+.blockC{
+    width: 30%;
+    height: 60%;
+    background:green;
+    margin: 10px;
+}

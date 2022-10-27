@@ -5,60 +5,40 @@ body{
 
 }
 .container{
-    width: 100%;
-    height: 100vh;
-    background:silver;
-
-}
-.header{
-    width: 100%;
-    height: 50px;
-    background:saddlebrown;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.menu{
-    width: 100%;
     height: 500px;
-    background:darkslategrey;
-}
-.footer{
     width: 100%;
-    height: 150px;
-    background:darkorchid;
+    /*background:cornflowerblue;*/
     display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 20px;
-    position: absolute;
+    justify-content: space-evenly;
 
 }
-.left__menu{
-    width: 50px;
-    height: 30px;
-    background:black;
-    margin-left: 30px;
-}
-.right{
-    width: 150px;
-    height: 30px;
-    background:purple;
-    margin-right: 30px;
+.cards{
+    width:350px;
+    height:500px;
+    border: 2px solid black;
+    margin-top: 100px;
     display: flex;
+    align-items: flex-end;
+
+}
+.card{
+    width: 100%;
+    height: 70%;
+    /*background:darkblue;*/
+    display:flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
 }
-.icon{
-    width: 100px;
-    height: 20px;
-    background:silver;
+p{
+    text-align:center;
+    padding: 10px;
 }
-.block{
-    width: 200px;
-    height: 200px;
-    background:blue;
-    position: relative;
-    top: -110px;
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    border: 2px solid black;
+    background:rosybrown;
 }
